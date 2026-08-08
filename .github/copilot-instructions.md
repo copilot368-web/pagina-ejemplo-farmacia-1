@@ -1,3 +1,1 @@
-- Crear una página web estática de farmacia con HTML, CSS y JavaScript.
-- Incluir un catálogo de productos y un carrito de compras funcional.
-- Proveer instrucciones claras para abrir la página desde el navegador.
+
