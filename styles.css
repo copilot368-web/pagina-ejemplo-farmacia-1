@@ -47,6 +47,17 @@ button {
   display: flex;
   align-items: center;
   gap: 14px;
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  border-radius: 14px;
+  background: white;
+  padding: 8px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
 }
 
 .brand-mark {
