@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Farmacia Salud</title>
+    <title>Farmacia Salud - Productos</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -24,53 +24,30 @@
 
         <nav class="nav-links">
           <a href="productos.html">Productos</a>
-          <a href="#contact">Consúltanos</a>
+          <a href="index.html#contact">Consúltanos</a>
         </nav>
       </header>
 
-      <div class="content-stack">
-        <div class="hero-row">
-          <div class="hero-image-column">
-            <img src="visuales/image-1786211592264.png" alt="Personal de farmacia" />
+      <main class="main-grid">
+        <section class="catalog-section" id="catalog">
+          <div class="section-header">
+            <span class="section-label">Productos</span>
+            <h2>Catálogo de productos</h2>
+            <p>Explora todos los productos disponibles en la tienda.</p>
           </div>
-
-          <section class="featured-section">
-            <div class="featured-panel">
-              <div class="featured-visual">
-                <img class="featured-product-img" src="" alt="" style="display:none;" />
+          <div class="catalog-layout">
+            <aside class="filters-panel">
+              <div class="filter-group">
+                <p class="filter-title">Filtrar por categoría</p>
+                <label><input type="checkbox" name="category" value="higiene" checked /> Higiene</label>
+                <label><input type="checkbox" name="category" value="infantil" checked /> Infantil</label>
+                <label><input type="checkbox" name="category" value="cosmetica" checked /> Cosmética</label>
               </div>
-              <div class="featured-copy">
-                <span class="featured-label">Producto destacado</span>
-                <h2 class="featured-name">Cargando producto...</h2>
-                <p class="featured-description">Se mostrará aquí un producto seleccionado al azar, con oferta o precio normal.</p>
-                <div class="featured-pricing"></div>
-                <div style="display:flex;gap:8px;align-items:center;">
-                  <button type="button" id="featured-add-button" class="button primary">Añadir al carrito</button>
-                  <button type="button" id="featured-refresh-button" class="button secondary">Mostrar otro</button>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <section class="offers-section">
-          <div class="section-title-group">
-            <h2>Ofertas</h2>
-            <p>Promociones especiales en productos seleccionados.</p>
-          </div>
-          <div class="offer-cards"></div>
-        </section>
-
-        <section class="location-section" id="location">
-          <div>
-            <h2>Ubicación</h2>
-            <p>Encuéntranos en Avenida del Generalísimo 1234, Ciudad.</p>
-          </div>
-          <div class="map-card">
-            <div class="map-placeholder">Mapa de ubicación</div>
+            </aside>
+            <div class="products-grid"></div>
           </div>
         </section>
-      </div>
+      </main>
     </div>
 
     <button type="button" class="cart-bubble" aria-label="Abrir carrito" onclick="openCartPopup()">

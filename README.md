@@ -4,7 +4,7 @@ Página web estática de farmacia con catálogo profesional y carrito de compras
 
 ## Cómo usar
 
-Abre el archivo `index.html` en cualquier navegador. Usa `cart.html` para revisar el carrito y finalizar la compra.
+Abre el archivo `index.html` en cualquier navegador. En la tienda, usa el botón del carrito en la esquina inferior derecha para abrir el carrito como un popup.
 
 Si deseas usar un servidor local, puedes instalar una extensión como Live Server o ejecutar un servidor simple.
 
